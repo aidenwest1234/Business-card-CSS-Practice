@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+html {
+  font-family: Cormorant;
+  width: auto;
+  height: auto;
+}
+
+.front{
+  margin-left: 6em;
+  position: absolute;
+}
+
+.back {
+  margin-left: 24em;
+  position: absolute;
+}
+
+.display_front {
+  font-family: Montserrat;
+  width: 32em;
+  height: 18em;
+  display: grid;
+  place-content: center;
+  border-style: solid;
+  color: #e9ecef ;
+  background-color: #212529;
+  position: absolute; 
+  margin-top: 5em;
+}
+
+.display_back {
+  width: 32em;
+  height: 18em;
+  margin-left: 35em;
+  width: 32em;
+  border-style: solid;
+  color: #e9ecef ;
+  background-color: #212529;
+  position: absolute; 
+  margin-top: 5em;
+}
+ 
+#name{ 
+  position: absolute;
+  font-size: 1.1em;
+  border-top: 3px solid #337ab7;
+  width: 35%;
+  padding: 1em 1em 1em 5em;
+  margin: 11.2em 1em 1em 6.5em;
+}
+
+#logo {
+  margin-bottom: 4em;
+  width: 14em;
+  height: 6em;
+}
+
+.contact {
+  font-size: 1.9em;
+  margin: 1.3em 1em 1em 1.5em;
+  content: '';
+  height: .1em;
+  width: 82%;
+  z-index: 1;
+  background: #337ab7;
+}
+
+.info {
+  line-height: 1em;
+  margin: 4em 1em 1em 4em;
+}
+
+
+
